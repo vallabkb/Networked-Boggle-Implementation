@@ -1,23 +1,18 @@
 [ReadMe]
 
-[Group Members]
--Killian Bailey
--Vallab kunigal badrish
+Boggle is a challenging word‐finding game that can be played in as little as 3 minutes and can be 
+played by two or more players. The Goal was to turn Boggle into a multi‐player networked game consisting of a single server program 
+which will interact with two clients. 
 
-[Work Split up]
--We met up and worked on mostly all of it together.
+The working of the game can be slpit up into three stages,
 
-[Sources]
--looked at stack exchange and github
--asking questions during office hours
+Stage 1: The server is started and allows multiple clients to connect.
 
-[Challenges]
--generating the boogle borad
--getting the boggleboard to connect to the client
--calculating the score
--limiting the number of clients allowed to connect to the server
+Stage 2: The server will create a random 4 X 4 Boggle board arranged in a cube and send this information to each client. 
 
-[example working gameplay]
-screenshot attached in file
-The error displaying on the client and server terminal is the server and client automatically terminating after the results have been received by the client
-and sent by the server. 
+Stage 3: The server stops accepting guesses after 3 minutes and starts to tabulate the results by eliminating the duplicate words from each player’s list and score the remaining words according to Boggle's rules.
+
+Stage 4: And Finally after the server sends the results to each client, it terminates and ends the game. 
+
+
+
